@@ -34,7 +34,7 @@ void setup()
     // Configure PWM pins to their positions on the face
     auto faceOutputs = PlaneMapper_Margin::mapMatrixCoordinates<FloatPlane::Actuator*>({
       // clang-format off
-      { new LedcOutput(32), new LedcOutput(33), new LedcOutput(25), new LedcOutput(26) },
+      { new LedcOutput(SS_HP_1), new LedcOutput(SS_HP_2), new LedcOutput(SS_HP_3), new LedcOutput(SS_HP_4) },
       // clang-format on
     });
 

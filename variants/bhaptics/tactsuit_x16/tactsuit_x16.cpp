@@ -37,14 +37,14 @@ void setup()
     // Configure PWM pins to their positions on the vest
     auto frontOutputs = PlaneMapper_Margin::mapMatrixCoordinates<FloatPlane::Actuator*>({
       // clang-format off
-      { new LedcOutput(32), new LedcOutput(33), new LedcOutput(25), new LedcOutput(26) },
-      { new LedcOutput(27), new LedcOutput(14), new LedcOutput(12), new LedcOutput(13) },
+      { new LedcOutput(SS_HP_1), new LedcOutput(SS_HP_2), new LedcOutput(SS_HP_3), new LedcOutput(SS_HP_4) },
+      { new LedcOutput(SS_HP_5), new LedcOutput(SS_HP_6), new LedcOutput(SS_HP_7), new LedcOutput(SS_HP_8) },
       // clang-format on
     });
     auto backOutputs = PlaneMapper_Margin::mapMatrixCoordinates<FloatPlane::Actuator*>({
       // clang-format off
-      { new LedcOutput(19), new LedcOutput(18), new LedcOutput(5), new LedcOutput(17) },
-      { new LedcOutput(16), new LedcOutput(4), new LedcOutput(2), new LedcOutput(15)  },
+      { new LedcOutput(SS_HP_9), new LedcOutput(SS_HP_10), new LedcOutput(SS_HP_11), new LedcOutput(SS_HP_12) },
+      { new LedcOutput(SS_HP_13), new LedcOutput(SS_HP_14), new LedcOutput(SS_HP_15), new LedcOutput(SS_HP_16)  },
       // clang-format on
     });
 
