@@ -38,6 +38,7 @@ on [senseshift.github.io](https://senseshift.github.io/)
 * **NEW** [Build Guides](https://senseshift.github.io/guides/getting-started)
 * [Hardware Schematics](https://github.com/senseshift/senseshift-hardware)
 * [Flashing Firmware](https://senseshift.github.io/docs/category/firmware)
+* [ESP32 C3 Guide](https://github.com/Pandaggar/senseshift-firmware/blob/master/docs/ESP32C3_Guide.md)
 
 Please note that documentation is still a work in progress.
 
@@ -49,17 +50,21 @@ Please note that documentation is still a work in progress.
 |:---------------|:------:|
 | ESP32-WROOM-32 |   ✅    |
 | ESP32-WROVER   |   ✅    |
-| ESP32-C3       |   🚧   | - Currently being worked on by me
+| ESP32-C3       |   ✅   |
 | ESP32-S3       |   🚧   |
 
 > **Note**  
-> Functionality for custom GPIO pin usage has been added in [bhaptics.h](https://github.com/Pandaggar/senseshift-firmware/blob/master/include/config/bhaptics.h)
+> Please, refer
+> to [Documentation on MCUs](https://senseshift.github.io/docs/hardware/mcu) for
+> more detailed info
+
 
 ### PWM Drivers
 
 | Board        | Status | Max outputs per board |
 |:-------------|:------:|----------------------:|
-| Internal PWM |   ✅    |                    16 |
+| Internal PWM (ESP 32 Devkit C)|   ✅    |                    16 |
+| Internal PWM (ESP 32 C3)|   ✅    |                    6 |
 | PCA9685      |   ✅    |                    16 |
 | PCA9634      |   🚧   |                     8 |
 | PCA9531      |   🚧   |                     8 |
