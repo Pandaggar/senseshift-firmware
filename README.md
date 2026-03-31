@@ -38,7 +38,7 @@ on [senseshift.github.io](https://senseshift.github.io/)
 * **NEW** [Build Guides](https://senseshift.github.io/guides/getting-started)
 * [Hardware Schematics](https://github.com/senseshift/senseshift-hardware)
 * [Flashing Firmware](https://senseshift.github.io/docs/category/firmware)
-* [ESP32 C3 Guide](https://github.com/Pandaggar/senseshift-firmware/blob/master/docs/ESP32C3_Guide.md)
+* **NEW** [ESP32 C3 Guide](https://github.com/Pandaggar/senseshift-firmware/blob/master/docs/ESP32C3_Guide.md)
 
 Please note that documentation is still a work in progress.
 
