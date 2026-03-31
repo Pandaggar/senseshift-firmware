@@ -39,12 +39,12 @@ void setup()
     addTactGloveActuators(
       app->getVibroBody(),
       handSide,
-      new LedcOutput(32), // Thumb
-      new LedcOutput(33), // Index
-      new LedcOutput(25), // Middle
-      new LedcOutput(26), // Ring
-      new LedcOutput(27), // Little
-      new LedcOutput(14)  // Wrist
+      new LedcOutput(SS_HP_1), // Thumb
+      new LedcOutput(SS_HP_2), // Index
+      new LedcOutput(SS_HP_3), // Middle
+      new LedcOutput(SS_HP_4), // Ring
+      new LedcOutput(SS_HP_5), // Little
+      new LedcOutput(SS_HP_6)  // Wrist
     );
 
     app->getVibroBody()->setup();

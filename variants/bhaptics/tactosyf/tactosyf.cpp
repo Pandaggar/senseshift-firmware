@@ -37,6 +37,7 @@ void setup()
       { new LedcOutput(SS_HP_1) },
       { new LedcOutput(SS_HP_2) },
       { new LedcOutput(SS_HP_3) }
+
       // clang-format on
     });
 
